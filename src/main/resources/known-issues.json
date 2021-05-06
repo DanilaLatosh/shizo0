@@ -1,2 +1,9 @@
 {
+	"PG22":
+	{
+	"type": "Internal",
+	"assertionPattern": ".*Expected: <https://trello.com/templates/education> Actual: <https://trello.com/danya274/boards>*.",
+	"storyPattern": ".*VisualTests*.",
+	"stepPattern": ".*Then the page with the URL 'https://trello.com/templates/education' is loaded*."
+	}
 }

@@ -1,0 +1,11 @@
+Composite: When I enter $email and $password in registration form
+When I enter `danyaleonova@yandex.by` in field located `By.xpath(//*[@id="user"])`
+When I wait until element located `By.xpath(//*[@id="password"])` disappears
+When I click on element located `By.xpath(//*[@id="login"])`
+When I enter `0206__alex$` in field located `By.xpath(//*[@id="password"])`
+
+Composite: When I fill $firstName and $emailUser in the reg form
+When I enter `<firstName>` in field located `By.xpath(//*[@id="first-name-su"])`
+When I enter `test` in field located `By.xpath(//*[@id="last-name-su"])`
+When I enter `<emailUser>` in field located `By.xpath(//*[@id="email-su"])`
+When I enter `Test1234` in field located `By.xpath(//*[@id="password-su"])`
